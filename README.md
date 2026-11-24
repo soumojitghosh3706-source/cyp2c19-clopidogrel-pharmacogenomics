@@ -33,7 +33,35 @@ This project integrates molecular genetics, population genetics and clinical pha
 | 03 | Population allele-frequency analysis |
 | 04 | CYP2C19 metabolizer phenotypes |
 | 05 | CPIC clinical recommendations |
+## Scientific Figures
 
+### Molecular Mechanisms
+
+**Figure 1. Platelet activation and inhibition by clopidogrel**
+
+![Platelet mechanism](figures/mechanisms/figure_01_platelet_mechanism.jpg)
+
+**Figure 2. Metabolic activation of clopidogrel**
+
+![Clopidogrel metabolism](figures/mechanisms/figure_02_clopidogrel_metabolism.jpg)
+
+**Figure 3. Effect of CYP2C19*2 on abnormal pre-mRNA splicing**
+
+![CYP2C19 splicing](figures/mechanisms/figure_03_cyp2c19_splicing.jpg)
+
+### Population Frequency Analysis
+
+**Figure 4. CYP2C19*2 allele frequency across gnomAD ancestry groups**
+
+![gnomAD frequencies](figures/population/figure_04_gnomad_frequencies.png)
+
+**Figure 5. CYP2C19*2 allele frequency across selected South Asian populations**
+
+![South Asian frequencies](figures/population/figure_05_south_asian_frequencies.png)
+
+**Figure 6. CYP2C19*2 allele frequency across selected HGDP populations**
+
+![HGDP frequencies](figures/population/figure_06_hgdp_frequencies.png)
 ## Population Analysis
 
 The project examines three population datasets:
