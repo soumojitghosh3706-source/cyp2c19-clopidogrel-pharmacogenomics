@@ -1,0 +1,106 @@
+# CYP2C19*2 Variant Information
+
+## 1. Gene Overview
+
+**Gene symbol:** CYP2C19  
+**Full name:** Cytochrome P450 Family 2 Subfamily C Member 19  
+**Chromosomal location:** Chromosome 10q23.33  
+**Gene function:** Encodes a cytochrome P450 enzyme involved in the metabolism of several clinically important drugs.
+
+CYP2C19 belongs to the cytochrome P450 superfamily of enzymes, which participate in the oxidative metabolism of endogenous compounds and xenobiotics, including therapeutic drugs.
+
+One of its important pharmacological functions is contributing to the metabolic activation of clopidogrel, an antiplatelet prodrug.
+
+## 2. Variant Identification
+
+| Characteristic | Information |
+|---|---|
+| Gene | CYP2C19 |
+| Variant designation | CYP2C19*2 |
+| dbSNP identifier | rs4244285 |
+| Reference variant description | c.681G>A |
+| Chromosome | 10 |
+| Functional classification | No-function allele |
+| Protein consequence | p.Pro227= (synonymous) |
+| Biological consequence | Abnormal pre-mRNA splicing |
+
+The CYP2C19*2 allele is one of the most extensively studied loss-of-function variants of CYP2C19.
+
+## 3. Molecular Mechanism
+
+The CYP2C19*2 variant involves a G-to-A nucleotide substitution at position 681 (c.681G>A).
+
+Although this substitution is synonymous at the protein-coding level, meaning that it does not directly change the encoded amino acid, it has an important effect on RNA processing.
+
+The nucleotide substitution disrupts normal pre-mRNA splicing by creating an aberrant splice site. This results in abnormal processing of the CYP2C19 transcript.
+
+The abnormal transcript contains a 40-base-pair deletion involving exon 5. This deletion disrupts the normal reading frame and introduces a premature termination signal, resulting in the production of a truncated, non-functional CYP2C19 protein.
+
+Consequently, the CYP2C19*2 allele is classified as a no-function allele.
+
+### Molecular Consequences
+
+1. A G-to-A substitution occurs at nucleotide position 681.
+2. The variant alters normal pre-mRNA splicing.
+3. An aberrant transcript containing a 40-base-pair deletion is produced.
+4. The reading frame is disrupted.
+5. A premature termination signal results in a truncated protein.
+6. Functional CYP2C19 enzyme activity is lost.
+
+### Figure: CYP2C19*2-associated abnormal splicing
+
+![CYP2C19*2 splicing mechanism](../figures/mechanisms/figure_03_cyp2c19_splicing.jpg)
+
+*Figure 1. Effect of the CYP2C19*2 (rs4244285) variant on CYP2C19 exon 5 splicing, showing the associated 40-base-pair deletion and PCR-based differentiation of CYP2C19*1 and CYP2C19*2 alleles.*
+
+## 4. Functional Consequences for Drug Metabolism
+
+CYP2C19 contributes to the sequential oxidative reactions involved in the metabolic activation of clopidogrel.
+
+The CYP2C19*2 variant reduces the formation of functional CYP2C19 enzyme. As a result, individuals carrying this allele may have a reduced capacity to convert clopidogrel into its active metabolite.
+
+Reduced active-metabolite formation can lead to:
+- Reduced inhibition of the platelet P2Y12 receptor.
+- Inadequate suppression of ADP-mediated platelet activation.
+- Reduced antiplatelet response in some individuals.
+- Increased risk of adverse ischemic outcomes in clinically relevant settings.
+
+CYP2C19 is not the only enzyme involved in clopidogrel activation, but it is an important contributor to this process.
+
+## 5. CYP2C19 Metabolizer Phenotypes
+
+The functional effect of CYP2C19 variants is interpreted using an individual's diplotype, which represents the combination of alleles inherited from both parents.
+
+| Example diplotype | Expected phenotype |
+|---|---|
+| *1/*1 | Normal metabolizer |
+| *1/*2 | Intermediate metabolizer |
+| *2/*2 | Poor metabolizer |
+
+These are illustrative examples. The actual metabolizer phenotype depends on the complete diplotype and the functional classification of both alleles.
+
+Individuals carrying one CYP2C19*2 allele may have intermediate metabolism when the other allele is normal-function. Individuals carrying two no-function alleles, such as *2/*2, are generally classified as poor metabolizers.
+
+## 6. Clinical Significance
+
+The CYP2C19*2 variant has important implications for clopidogrel therapy, particularly in patients with acute coronary syndrome and those undergoing percutaneous coronary intervention.
+
+Reduced CYP2C19 activity can decrease clopidogrel active-metabolite formation and weaken platelet inhibition.
+
+The Clinical Pharmacogenetics Implementation Consortium (CPIC) provides genotype-guided recommendations for clopidogrel therapy.
+
+For patients undergoing acute coronary syndrome treatment or percutaneous coronary intervention, CPIC recommends considering alternative antiplatelet therapy, such as prasugrel or ticagrelor, in CYP2C19 intermediate and poor metabolizers when clinically appropriate.
+
+Treatment selection must also consider contraindications, bleeding risk and the patient's clinical condition.
+
+## 7. References
+
+1. de Morais SMF, Wilkinson GR, Blaisdell J, Nakamura K, Meyer UA, Goldstein JA. (1994). The major genetic defect responsible for the polymorphism of S-mephenytoin metabolism in humans. *Journal of Biological Chemistry*, 269(22), 15419–15422.
+
+2. Lee CR, Luzum JA, Sangkuhl K, et al. (2022). Clinical Pharmacogenetics Implementation Consortium Guideline for CYP2C19 Genotype and Clopidogrel Therapy: 2022 Update. *Clinical Pharmacology & Therapeutics*, 112(5), 959–967. https://doi.org/10.1002/cpt.2526
+
+3. PharmVar. CYP2C19 allele definitions. https://www.pharmvar.org/
+
+4. NCBI dbSNP. rs4244285. https://www.ncbi.nlm.nih.gov/snp/rs4244285
+
+5. Mega JL, Close SL, Wiviott SD, et al. (2009). Cytochrome P-450 polymorphisms and response to clopidogrel. *New England Journal of Medicine*, 360, 354–362. https://doi.org/10.1056/NEJMoa0809171
