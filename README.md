@@ -153,7 +153,14 @@ The complete research report is available here:
 1. Lee et al. (2022). CPIC Guideline for CYP2C19 Genotype and Clopidogrel Therapy. [DOI: 10.1002/cpt.2526](https://doi.org/10.1002/cpt.2526)
 2. Mega et al. (2009). Cytochrome P-450 polymorphisms and response to clopidogrel. [DOI: 10.1056/NEJMoa0809171](https://doi.org/10.1056/NEJMoa0809171)
 3. 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. [DOI: 10.1038/nature15393](https://doi.org/10.1038/nature15393)
+## License
+This project’s original research documentation, written content, and original figures are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
+You are free to share and adapt these materials, provided appropriate credit is given and changes are indicated.
+
+Third-party materials, datasets, and figures remain subject to their respective licenses and terms of use.
+
+License: https://creativecommons.org/licenses/by/4.0/
 ## Author
 
 **Soumojit Ghosh**
