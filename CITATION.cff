@@ -1,0 +1,18 @@
+
+cff-version: 1.2.0
+message: "If you use this repository in your research, please cite it."
+title: "Pharmacogenomic Analysis of CYP2C19*2 and Its Impact on Clopidogrel Response"
+authors:
+  - family-names: Ghosh
+    given-names: Soumojit
+type: software
+abstract: >
+  A pharmacogenomic research project investigating the CYP2C19*2
+  variant (rs4244285), its influence on clopidogrel metabolism,
+  population allele frequencies, and clinical implications.
+keywords:
+  - Pharmacogenomics
+  - CYP2C19
+  - Clopidogrel
+  - Population Genetics
+  - Drug Metabolism
