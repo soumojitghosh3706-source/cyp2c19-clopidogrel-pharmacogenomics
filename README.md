@@ -120,6 +120,14 @@ The 2022 CPIC guideline provides genotype-guided recommendations for selecting a
 2. Mega et al. (2009). Cytochrome P-450 polymorphisms and response to clopidogrel. [DOI](https://doi.org/10.1056/NEJMoa0809171)
 3. 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. [DOI](https://doi.org/10.1038/nature15393)
 
+## Research Report
+
+The complete research report is available below:
+
+📄 **[Read the Pharmacogenomics Research Report](report/research_report.pdf)**
+
+The report covers the molecular mechanism of CYP2C19*2, population allele-frequency analysis and clinical implications for clopidogrel therapy.
+
 ## Author
 
 **Soumojit Ghosh**
