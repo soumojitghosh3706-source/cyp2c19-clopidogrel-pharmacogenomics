@@ -1,20 +1,21 @@
 # Pharmacogenomic Analysis of CYP2C19*2 and Its Impact on Clopidogrel Response
 
-**Population variation, molecular mechanisms and clinical implications**
+**A study of genetic variation, population distribution and clinical implications**
 
 ![Research](https://img.shields.io/badge/Research-Pharmacogenomics-blue)
 ![Gene](https://img.shields.io/badge/Gene-CYP2C19-purple)
 ![Variant](https://img.shields.io/badge/Variant-rs4244285-orange)
 ![Drug](https://img.shields.io/badge/Drug-Clopidogrel-green)
-![Language](https://img.shields.io/badge/Language-Python-3776AB)
+
+---
 
 ## Overview
 
 This research project investigates the pharmacogenomic relationship between the **CYP2C19*2 (rs4244285)** genetic variant and the antiplatelet drug **clopidogrel**.
 
-Clopidogrel is an inactive prodrug that requires metabolic activation by cytochrome P450 enzymes, including CYP2C19. The CYP2C19*2 allele is a loss-of-function variant associated with abnormal pre-mRNA splicing and reduced CYP2C19 enzyme activity.
+Clopidogrel is an inactive prodrug that requires metabolic activation by cytochrome P450 enzymes, including CYP2C19. The CYP2C19*2 allele is a no-function variant associated with abnormal pre-mRNA splicing and reduced CYP2C19 enzyme activity.
 
-This project integrates molecular genetics, population genetics and clinical pharmacogenomics to examine how CYP2C19*2 may influence clopidogrel metabolism and therapeutic response.
+This project integrates molecular genetics, population genetics and clinical pharmacogenomics to investigate how CYP2C19*2 may influence clopidogrel metabolism and therapeutic response.
 
 ## Research Objectives
 
@@ -33,6 +34,7 @@ This project integrates molecular genetics, population genetics and clinical pha
 | 03 | Population allele-frequency analysis |
 | 04 | CYP2C19 metabolizer phenotypes |
 | 05 | CPIC clinical recommendations |
+
 ## Scientific Figures
 
 ### Molecular Mechanisms
@@ -45,7 +47,7 @@ This project integrates molecular genetics, population genetics and clinical pha
 
 ![Clopidogrel metabolism](figures/mechanisms/figure_02_clopidogrel_metabolism.jpg)
 
-**Figure 3. Effect of CYP2C19*2 on abnormal pre-mRNA splicing**
+**Figure 3. CYP2C19*2-associated abnormal pre-mRNA splicing**
 
 ![CYP2C19 splicing](figures/mechanisms/figure_03_cyp2c19_splicing.jpg)
 
@@ -62,71 +64,95 @@ This project integrates molecular genetics, population genetics and clinical pha
 **Figure 6. CYP2C19*2 allele frequency across selected HGDP populations**
 
 ![HGDP frequencies](figures/population/figure_06_hgdp_frequencies.png)
+
 ## Population Analysis
 
-The project examines three population datasets:
+Three population datasets were examined:
 
-- **gnomAD:** Broad genetic ancestry groups.
-- **1000 Genomes:** Selected South Asian populations.
-- **HGDP:** Selected Central and South Asian populations.
+| Dataset | Population analysis |
+|---|---|
+| gnomAD | Broad genetic ancestry groups |
+| 1000 Genomes | Selected South Asian populations |
+| HGDP | Selected Central and South Asian populations |
 
-### Preliminary findings
+### Key Findings
 
-| Population dataset | Highest observed frequency |
+| Population dataset | Highest observed allele frequency |
 |---|---:|
 | gnomAD – South Asian | 32.03% |
 | Selected South Asian – Sri Lankan Tamil | 42.35% |
 | Selected HGDP – Sindhi | 33.33% |
 
-*These are allele frequencies, not carrier prevalence or individual clinical risk.*
+These values represent allele frequencies, not carrier prevalence or individual clinical risk.
 
-## Repository Structure
-
-```text
-├── report/       # Research report
-├── data/         # Population datasets
-├── figures/      # Scientific figures and charts
-├── scripts/      # Python analysis scripts
-├── docs/         # Methodology and references
-└── results/      # Analysis outputs
-```
-
-## Reproducibility
-
-Python scripts will be provided for:
-
-- Allele-frequency calculation.
-- Population data validation.
-- Population frequency visualization.
-- Exporting analysis results.
-
-## Clinical Relevance
+## Clinical Significance
 
 CYP2C19*2 is a no-function allele. Individuals carrying CYP2C19 loss-of-function alleles may have reduced clopidogrel activation.
 
 The 2022 CPIC guideline provides genotype-guided recommendations for selecting antiplatelet therapy, particularly in acute coronary syndrome and percutaneous coronary intervention settings.
 
+Alternative P2Y12 inhibitors, such as prasugrel or ticagrelor, may be considered for intermediate and poor metabolizers when clinically appropriate and when no contraindications exist.
+
+## Repository Structure
+
+```text
+cyp2c19-clopidogrel-pharmacogenomics/
+│
+├── README.md
+├── CITATION.cff
+├── LICENSE
+│
+├── report/
+│   └── research_report.pdf
+│
+├── data/
+│   ├── README.md
+│   ├── raw/
+│   └── processed/
+│       ├── gnomad_frequencies.csv
+│       ├── south_asian_frequencies.csv
+│       └── hgdp_frequencies.csv
+│
+├── figures/
+│   ├── mechanisms/
+│   └── population/
+│
+└── docs/
+    ├── methodology.md
+    ├── references.md
+    ├── variant_information.md
+    └── clinical_interpretation.md
+```
+
+## Research Documentation
+
+| Document | Description |
+|---|---|
+| [Research Methodology](docs/methodology.md) | Study design, population analysis and frequency calculation |
+| [Variant Information](docs/variant_information.md) | CYP2C19*2 molecular characteristics and functional consequences |
+| [Clinical Interpretation](docs/clinical_interpretation.md) | Clinical evidence and CPIC prescribing recommendations |
+| [References and Data Sources](docs/references.md) | Scientific publications and database resources |
+| [Population Data Documentation](data/README.md) | Dataset organization, data dictionary and limitations |
+
+## Research Report
+
+The complete research report is available here:
+
+📄 **[Read the Pharmacogenomic Research Report](report/research_report.pdf)**
+
 ## Limitations
 
 - Population datasets have different sampling designs and ancestry classifications.
-- Small sample sizes can affect frequency estimates.
-- Allele frequency should not be interpreted as carrier frequency.
+- Small sample sizes can affect allele-frequency estimates.
+- Allele frequency should not be interpreted as carrier prevalence.
 - Population frequency alone cannot predict an individual's clinical response.
 - Clinical interpretation requires consideration of the complete CYP2C19 diplotype and treatment context.
 
 ## References
 
-1. Lee et al. (2022). CPIC Guideline for CYP2C19 Genotype and Clopidogrel Therapy. [DOI](https://doi.org/10.1002/cpt.2526)
-2. Mega et al. (2009). Cytochrome P-450 polymorphisms and response to clopidogrel. [DOI](https://doi.org/10.1056/NEJMoa0809171)
-3. 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. [DOI](https://doi.org/10.1038/nature15393)
-
-## Research Report
-
-The complete research report is available below:
-
-📄 **[Read the Pharmacogenomics Research Report](report/research_report.pdf)**
-
-The report covers the molecular mechanism of CYP2C19*2, population allele-frequency analysis and clinical implications for clopidogrel therapy.
+1. Lee et al. (2022). CPIC Guideline for CYP2C19 Genotype and Clopidogrel Therapy. [DOI: 10.1002/cpt.2526](https://doi.org/10.1002/cpt.2526)
+2. Mega et al. (2009). Cytochrome P-450 polymorphisms and response to clopidogrel. [DOI: 10.1056/NEJMoa0809171](https://doi.org/10.1056/NEJMoa0809171)
+3. 1000 Genomes Project Consortium (2015). A global reference for human genetic variation. [DOI: 10.1038/nature15393](https://doi.org/10.1038/nature15393)
 
 ## Author
 
