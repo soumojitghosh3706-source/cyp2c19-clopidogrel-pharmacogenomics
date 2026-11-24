@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="figures/project_banner.png" alt="CYP2C19*2 and Clopidogrel Pharmacogenomics Research Banner" width="100%">
+</p>
 # Pharmacogenomic Analysis of CYP2C19*2 and Its Impact on Clopidogrel Response
 
 **A study of genetic variation, population distribution and clinical implications**
